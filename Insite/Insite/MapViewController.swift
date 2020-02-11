@@ -149,6 +149,8 @@ extension MapViewController: CLLocationManagerDelegate {
             return
         }
         self.location = mostRecentLocation
+        
+        mapView.setCenter(location!.coordinate, zoomLevel: 14, animated: true)
     }
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
