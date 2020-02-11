@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7E3E6B825ED82E74729194AB /* Pods_Insite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAAA330A5374CC9D63B5891 /* Pods_Insite.framework */; };
+		ACA41FD423F3515A00DBF528 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA41FD323F3515A00DBF528 /* MapViewController.swift */; };
 		ACE06AFD23F341FF00749574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE06AFC23F341FF00749574 /* AppDelegate.swift */; };
-		ACE06AFF23F341FF00749574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE06AFE23F341FF00749574 /* SceneDelegate.swift */; };
-		ACE06B0123F341FF00749574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE06B0023F341FF00749574 /* ViewController.swift */; };
 		ACE06B0423F341FF00749574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE06B0223F341FF00749574 /* Main.storyboard */; };
 		ACE06B0623F3420100749574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE06B0523F3420100749574 /* Assets.xcassets */; };
 		ACE06B0923F3420100749574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE06B0723F3420100749574 /* LaunchScreen.storyboard */; };
@@ -20,10 +19,9 @@
 		66686F4F13A0FA9504465C47 /* Pods-Insite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.debug.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.debug.xcconfig"; sourceTree = "<group>"; };
 		7BAAA330A5374CC9D63B5891 /* Pods_Insite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CAB0430772B52FCE726C9E /* Pods-Insite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.release.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.release.xcconfig"; sourceTree = "<group>"; };
+		ACA41FD323F3515A00DBF528 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ACE06AF923F341FF00749574 /* Insite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE06AFC23F341FF00749574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACE06AFE23F341FF00749574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACE06B0023F341FF00749574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACE06B0323F341FF00749574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACE06B0523F3420100749574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE06B0823F3420100749574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 				66686F4F13A0FA9504465C47 /* Pods-Insite.debug.xcconfig */,
 				A6CAB0430772B52FCE726C9E /* Pods-Insite.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,8 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				ACE06AFC23F341FF00749574 /* AppDelegate.swift */,
-				ACE06AFE23F341FF00749574 /* SceneDelegate.swift */,
-				ACE06B0023F341FF00749574 /* ViewController.swift */,
+				ACA41FD323F3515A00DBF528 /* MapViewController.swift */,
 				ACE06B0223F341FF00749574 /* Main.storyboard */,
 				ACE06B0523F3420100749574 /* Assets.xcassets */,
 				ACE06B0723F3420100749574 /* LaunchScreen.storyboard */,
@@ -207,9 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE06B0123F341FF00749574 /* ViewController.swift in Sources */,
+				ACA41FD423F3515A00DBF528 /* MapViewController.swift in Sources */,
 				ACE06AFD23F341FF00749574 /* AppDelegate.swift in Sources */,
-				ACE06AFF23F341FF00749574 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
