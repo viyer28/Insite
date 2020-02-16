@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = mapViewController
         self.window?.makeKeyAndVisible()
         
+        FirebaseApp.configure()
         return true
     }
 

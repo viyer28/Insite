@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D5D56623F9F87300E0D667 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21D5D56523F9F87300E0D667 /* GoogleService-Info.plist */; };
 		7E3E6B825ED82E74729194AB /* Pods_Insite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAAA330A5374CC9D63B5891 /* Pods_Insite.framework */; };
 		ACA41FD423F3515A00DBF528 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA41FD323F3515A00DBF528 /* MapViewController.swift */; };
 		ACE06AFD23F341FF00749574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE06AFC23F341FF00749574 /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21D5D56523F9F87300E0D667 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66686F4F13A0FA9504465C47 /* Pods-Insite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.debug.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.debug.xcconfig"; sourceTree = "<group>"; };
 		7BAAA330A5374CC9D63B5891 /* Pods_Insite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CAB0430772B52FCE726C9E /* Pods-Insite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.release.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				ACE06B0523F3420100749574 /* Assets.xcassets */,
 				ACE06B0723F3420100749574 /* LaunchScreen.storyboard */,
 				ACE06B0A23F3420100749574 /* Info.plist */,
+				21D5D56523F9F87300E0D667 /* GoogleService-Info.plist */,
 			);
 			path = Insite;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE06B0923F3420100749574 /* LaunchScreen.storyboard in Resources */,
+				21D5D56623F9F87300E0D667 /* GoogleService-Info.plist in Resources */,
 				ACE06B0623F3420100749574 /* Assets.xcassets in Resources */,
 				ACE06B0423F341FF00749574 /* Main.storyboard in Resources */,
 			);

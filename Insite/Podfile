@@ -10,5 +10,6 @@ target 'Insite' do
   pod 'Firebase/Auth'
   pod 'Firebase/Messaging'
   pod 'Firebase/Firestore'
+  pod 'Firebase/Analytics'
   pod 'SnapKit'
 end
