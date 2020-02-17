@@ -26,6 +26,12 @@ final class MapViewController: UIViewController {
 
         view.backgroundColor = .white
         _setupMapView()
+        
+        createLocationManager()
+        for fence in fences {
+            createGeofence(lat: fence.value["Lat"]!, long: fence.value["Long"]!, rad: fence.value["Rad"]!, name: fence.key)
+        }
+        
         view.addSubview(mapView)
         // Do any additional setup after loading the view.
     }
@@ -33,7 +39,6 @@ final class MapViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        createLocationManager()
     }
 
     override var prefersStatusBarHidden: Bool {
@@ -85,11 +90,35 @@ final class MapViewController: UIViewController {
         mapView.showsUserLocation = true
     }
     
+    func createGeofence(lat: Double, long: Double, rad: Double, name: String) {
+        let geofenceCenter = CLLocationCoordinate2DMake(lat, long)
+        let geofenceRegion = CLCircularRegion(center: geofenceCenter,
+                                              radius: rad,
+                                              identifier: name)
+        geofenceRegion.notifyOnEntry = true
+        geofenceRegion.notifyOnExit = true
+        
+        locationManager.startMonitoring(for: geofenceRegion)
+    }
+    
     private var mapView: MGLMapView!
     private let w: CGFloat
     private let h: CGFloat
     private var location: CLLocation?
     private var locationManager: CLLocationManager!
+    private let fences: [String: [String: Double]] =
+    [
+        "Reg": ["Lat": 41.792171, "Long": -87.599934, "Rad": 75.0],
+        "Harper": ["Lat": 41.787953, "Long": -87.599584, "Rad": 40.0],
+        "Crerar": ["Lat": 41.790534, "Long": -87.602835, "Rad": 50.0],
+        "Ryerson": ["Lat": 41.790195, "Long": -87.599187, "Rad": 30.0],
+        "Pret": ["Lat": 41.791120, "Long": -87.598675, "Rad": 20.0],
+        "North": ["Lat": 41.794764, "Long": -87.598754, "Rad": 40.0],
+        "Plein Air": ["Lat": 41.790066, "Long": -87.595929, "Rad": 20.0],
+        "Bookstore": ["Lat": 41.789725, "Long": -87.601660, "Rad": 30.0],
+        "Booth": ["Lat": 41.789115, "Long": -87.595585, "Rad": 55.0],
+        "Quad": ["Lat": 41.789587, "Long": -87.599659, "Rad": 50.0]
+    ]
 }
 
 extension MapViewController: MGLMapViewDelegate {
@@ -167,4 +196,5 @@ extension MapViewController: CLLocationManagerDelegate {
         }
     }
 }
+
 
