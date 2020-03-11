@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
-	<true/>
-	<key>MGLMapboxAccessToken</key>
-	<string>pk.eyJ1Ijoic3BvdHRpeWVyIiwiYSI6ImNqZmQyZnVkejIwbGgyd29iZnR3bGVvMXUifQ.fVrLRiLoyIoPfAGm5ozmMg</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -20,14 +16,36 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.132334584921-bo32aili02rep3688usvfrr433b2lo2s</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>waze</string>
+        <string>comgooglemaps</string>
+        <string>uber</string>
+        <string>uberauth</string>
+    </array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1Ijoic3BvdHRpeWVyIiwiYSI6ImNqZmQyZnVkejIwbGgyd29iZnR3bGVvMXUifQ.fVrLRiLoyIoPfAGm5ozmMg</string>
+	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>&quot;Insite uses your location to send you relevant notifications from businesses that you travel to.&quot;</string>
+	<string>Insite uses your location to send you relevant notifications about the places you travel to.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>&quot;Insite uses your location to send you relevant notifications from businesses that you travel to.</string>
+	<string>Insite uses your location to send you relevant notifications about the places you travel to.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
@@ -44,15 +62,17 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>UberClientID</key>
+    <string>urSoq86M1AVV73n2tSCboQn9OzTyebIs</string>
+    <key>UberDisplayName</key>
+    <string>Spott</string>
+    <key>UberServerToken</key>
+    <string>YyHlCgB_v6_kpOXgyVzD5ZRFMV7EWssTXwFmYHoN</string>
 </dict>
 </plist>
