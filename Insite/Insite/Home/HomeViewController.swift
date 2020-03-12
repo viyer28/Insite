@@ -62,13 +62,13 @@ final class HomeViewController: UIViewController, HomePresentable, HomeViewContr
         homeFlowLayout.minimumInteritemSpacing = 5
         homeFlowLayout.scrollDirection = .horizontal
         
-        homeCollectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: w, height: 100), collectionViewLayout: homeFlowLayout)
+        homeCollectionView = UICollectionView(frame: CGRect(x: w/2 - 265/2, y: 0, width: w, height: 100), collectionViewLayout: homeFlowLayout)
         
         homeCollectionView.showsHorizontalScrollIndicator = false
         homeCollectionView.showsVerticalScrollIndicator = false
         homeCollectionView.isDirectionalLockEnabled = true
         homeCollectionView.alwaysBounceVertical = false
-        homeCollectionView.alwaysBounceHorizontal = true
+        homeCollectionView.alwaysBounceHorizontal = false
         homeCollectionView.isPagingEnabled = false
         homeCollectionView.delegate = self
         homeCollectionView.backgroundColor = UIColor.clear

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21D5D56623F9F87300E0D667 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21D5D56523F9F87300E0D667 /* GoogleService-Info.plist */; };
+		3D7079C7B2AAC06B47F9101F /* Pods_Insite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E513541B0775B8462D7B18 /* Pods_Insite.framework */; };
 		AC0AE5B6240C4A37002B14A3 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AE5B5240C4A37002B14A3 /* LaunchViewController.swift */; };
 		AC6E5C792419446400AA24A0 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E5C782419446400AA24A0 /* Places.swift */; };
 		AC6E5C7B241944F000AA24A0 /* MenuState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E5C7A241944F000AA24A0 /* MenuState.swift */; };
@@ -45,12 +46,12 @@
 		ACE06B0423F341FF00749574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE06B0223F341FF00749574 /* Main.storyboard */; };
 		ACE06B0623F3420100749574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE06B0523F3420100749574 /* Assets.xcassets */; };
 		ACE06B0923F3420100749574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE06B0723F3420100749574 /* LaunchScreen.storyboard */; };
-		D791C71F0362459FF8816E1B /* Pods_Insite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE6459AC4BD3D0B144BF9BD /* Pods_Insite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02E513541B0775B8462D7B18 /* Pods_Insite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D5D56523F9F87300E0D667 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8EE6459AC4BD3D0B144BF9BD /* Pods_Insite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D3EDC96B21C9A18D2E0C05 /* Pods-Insite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.debug.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.debug.xcconfig"; sourceTree = "<group>"; };
 		AC0AE5B4240C31C0002B14A3 /* Insite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Insite.entitlements; sourceTree = "<group>"; };
 		AC0AE5B5240C4A37002B14A3 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		AC6E5C782419446400AA24A0 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
@@ -91,8 +92,7 @@
 		ACE06B0523F3420100749574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE06B0823F3420100749574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE06B0A23F3420100749574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D45DE900F48D7ECD9A5DE3AE /* Pods-Insite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.release.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.release.xcconfig"; sourceTree = "<group>"; };
-		D885149D994DD610C0D384E3 /* Pods-Insite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.debug.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6132BCD8BA901047567CD8 /* Pods-Insite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insite.release.xcconfig"; path = "Target Support Files/Pods-Insite/Pods-Insite.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,28 +100,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D791C71F0362459FF8816E1B /* Pods_Insite.framework in Frameworks */,
+				3D7079C7B2AAC06B47F9101F /* Pods_Insite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74D8C153A2DD8A52200D1912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E513541B0775B8462D7B18 /* Pods_Insite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88C9C1BC25E6F60419ADCD0A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D885149D994DD610C0D384E3 /* Pods-Insite.debug.xcconfig */,
-				D45DE900F48D7ECD9A5DE3AE /* Pods-Insite.release.xcconfig */,
+				24D3EDC96B21C9A18D2E0C05 /* Pods-Insite.debug.xcconfig */,
+				BC6132BCD8BA901047567CD8 /* Pods-Insite.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		90A03F5AF423B86E38E48B7E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8EE6459AC4BD3D0B144BF9BD /* Pods_Insite.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AC6E5C772419444C00AA24A0 /* Models */ = {
@@ -227,7 +227,7 @@
 				ACE06AFB23F341FF00749574 /* Insite */,
 				ACE06AFA23F341FF00749574 /* Products */,
 				88C9C1BC25E6F60419ADCD0A /* Pods */,
-				90A03F5AF423B86E38E48B7E /* Frameworks */,
+				74D8C153A2DD8A52200D1912 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -268,11 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACE06B0D23F3420100749574 /* Build configuration list for PBXNativeTarget "Insite" */;
 			buildPhases = (
-				44B0E6D7973AB53CEB97BC94 /* [CP] Check Pods Manifest.lock */,
+				6C6B1546AA257B5271F6412F /* [CP] Check Pods Manifest.lock */,
 				ACE06AF523F341FF00749574 /* Sources */,
 				ACE06AF623F341FF00749574 /* Frameworks */,
 				ACE06AF723F341FF00749574 /* Resources */,
-				B24E63A464985764602A6AB2 /* [CP] Embed Pods Frameworks */,
+				35830F4A27D217C4C39B269C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,7 +331,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44B0E6D7973AB53CEB97BC94 /* [CP] Check Pods Manifest.lock */ = {
+		35830F4A27D217C4C39B269C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insite/Pods-Insite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insite/Pods-Insite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Insite/Pods-Insite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6B1546AA257B5271F6412F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,23 +368,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B24E63A464985764602A6AB2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Insite/Pods-Insite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Insite/Pods-Insite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Insite/Pods-Insite-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -552,41 +552,45 @@
 		};
 		ACE06B0E23F3420100749574 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D885149D994DD610C0D384E3 /* Pods-Insite.debug.xcconfig */;
+			baseConfigurationReference = 24D3EDC96B21C9A18D2E0C05 /* Pods-Insite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Insite/Insite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 722MQCCEZT;
 				INFOPLIST_FILE = Insite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.spott.Insite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ACE06B0F23F3420100749574 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D45DE900F48D7ECD9A5DE3AE /* Pods-Insite.release.xcconfig */;
+			baseConfigurationReference = BC6132BCD8BA901047567CD8 /* Pods-Insite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Insite/Insite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 722MQCCEZT;
 				INFOPLIST_FILE = Insite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.spott.Insite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

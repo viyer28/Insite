@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -29,13 +29,13 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>waze</string>
-        <string>comgooglemaps</string>
-        <string>uber</string>
-        <string>uberauth</string>
-    </array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>waze</string>
+		<string>comgooglemaps</string>
+		<string>uber</string>
+		<string>uberauth</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MGLMapboxAccessToken</key>
@@ -68,11 +68,11 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
-    <key>UberClientID</key>
-    <string>urSoq86M1AVV73n2tSCboQn9OzTyebIs</string>
-    <key>UberDisplayName</key>
-    <string>Spott</string>
-    <key>UberServerToken</key>
-    <string>YyHlCgB_v6_kpOXgyVzD5ZRFMV7EWssTXwFmYHoN</string>
+	<key>UberClientID</key>
+	<string>urSoq86M1AVV73n2tSCboQn9OzTyebIs</string>
+	<key>UberDisplayName</key>
+	<string>Spott</string>
+	<key>UberServerToken</key>
+	<string>YyHlCgB_v6_kpOXgyVzD5ZRFMV7EWssTXwFmYHoN</string>
 </dict>
 </plist>

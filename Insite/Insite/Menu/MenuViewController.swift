@@ -105,14 +105,14 @@ final class MenuViewController: UIViewController, MenuPresentable, MenuViewContr
         meetLabel = UILabel()
         meetLabel.font = UIFont.systemFont(ofSize: 28, weight: UIFont.Weight.bold)
         meetLabel.textAlignment = .left
-        meetLabel.text = "your top places"
+        meetLabel.text = "your top three"
         meetLabel.textColor = UIColor(red: 213/255, green: 168/255, blue: 94/255, alpha: 1.0)
         meetLabel.sizeToFit()
         
         view.addSubview(meetLabel)
         meetLabel.snp.makeConstraints { (make) in
             make.top.equalTo(self.view.snp.top).offset(20)
-            make.left.equalTo(self.view.snp.left).offset(self.w/8 - 30)
+            make.centerX.equalTo(self.view.snp.centerX)
         }
     }
     

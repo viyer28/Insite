@@ -38,7 +38,7 @@ class PlaceAnnotationView: MGLAnnotationView {
         self.frame = CGRect(x: 0, y: 0, width: 45, height: 45)
         
         placeImageView = UIImageView(image: place.image)
-        placeImageView.contentMode = .scaleAspectFit
+        placeImageView.contentMode = .scaleAspectFill
         placeImageView.layer.cornerRadius = 45/2
         placeImageView.clipsToBounds = true
         
