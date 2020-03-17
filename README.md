@@ -9,6 +9,7 @@
 #### 3. inside the 'Insite' folder, run 'pod install'
 #### 4. open 'Insite.xcworkspace'
 #### 5. make sure you are signed to a developer account
+##### a. please email "varuni@uchicago.edu" if you need access to a developer account
 #### 6. 🛑 if you try building right now, you will get a compiler error from a Pod!
 #### 7. inside the workspace navigator:
 ##### a. go to 'Pods' project, 'Pods' folder, then 'RIBs' folder
